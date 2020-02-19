@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asan.ink", "asan.ink\asan.ink.csproj", "{4DE30BE0-76EC-4B89-AF4A-F7BD1DAF7142}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asan.data", "asan.data\asan.data.csproj", "{A541CB1C-EE11-4DF3-9FAC-02A7DA0C0358}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DE30BE0-76EC-4B89-AF4A-F7BD1DAF7142}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE30BE0-76EC-4B89-AF4A-F7BD1DAF7142}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE30BE0-76EC-4B89-AF4A-F7BD1DAF7142}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE30BE0-76EC-4B89-AF4A-F7BD1DAF7142}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A541CB1C-EE11-4DF3-9FAC-02A7DA0C0358}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A541CB1C-EE11-4DF3-9FAC-02A7DA0C0358}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A541CB1C-EE11-4DF3-9FAC-02A7DA0C0358}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A541CB1C-EE11-4DF3-9FAC-02A7DA0C0358}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16A3B058-2A07-47A1-8ADF-A121AEC2D9BB}
+	EndGlobalSection
+EndGlobal
