@@ -10,6 +10,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 using asan.data;
+using MediatR;
+using System.Reflection;
 
 namespace asan.ink
 {
@@ -28,8 +30,8 @@ namespace asan.ink
             services.AddControllersWithViews();
 
             // Add the database context to the services collection for dependency injection
-
             services.AddDbContext<InkContext>();
+            services.AddMediatR(Assembly.GetExecutingAssembly());
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,6 +60,7 @@ namespace asan.ink
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
             });
+
         }
     }
 }

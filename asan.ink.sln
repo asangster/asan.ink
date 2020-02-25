@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asan.ink", "asan.ink\asan.i
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "asan.data", "asan.data\asan.data.csproj", "{A541CB1C-EE11-4DF3-9FAC-02A7DA0C0358}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "asan.ink.tests", "asan.ink.tests\asan.ink.tests.csproj", "{AE38DF93-2E22-4215-8B22-83E4CF4D941D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{A541CB1C-EE11-4DF3-9FAC-02A7DA0C0358}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A541CB1C-EE11-4DF3-9FAC-02A7DA0C0358}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A541CB1C-EE11-4DF3-9FAC-02A7DA0C0358}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE38DF93-2E22-4215-8B22-83E4CF4D941D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE38DF93-2E22-4215-8B22-83E4CF4D941D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE38DF93-2E22-4215-8B22-83E4CF4D941D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE38DF93-2E22-4215-8B22-83E4CF4D941D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
